@@ -19,9 +19,10 @@ echo && echo " [+] Converting Subnets to IPs..."
 wget -q -N https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv4.txt -O $VPNInput
 wget -q -N https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/datacenter/ipv4.txt -O $DatacenterInput
 
-# Check
+# Clean
 echo > $VPNOutput && echo > $DatacenterOutput
 
+# Check
 while IFS= read -r subnet; do
   prips "$subnet" >> $VPNOutput
 done < $VPNInput
