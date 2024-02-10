@@ -14,7 +14,7 @@ This list doesn't list _all_ VPNs, but should list the vast majority of common o
 
 ## Conversions
 
-- **[subnet-top-ip-expansion.sh](https://github.com/sysvar/lists_vpn/blob/main/helpers/subnet-to-ip-expansion.sh):** Converting IPv4 subnets to pure IPv4 addresses
+- Converting IPv4 subnets to pure IPv4 addresses [example](https://github.com/sysvar/lists_vpn/blob/main/helpers/subnet-to-ip-expansion.sh).
 
 # How to contribute
 
